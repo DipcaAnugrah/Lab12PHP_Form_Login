@@ -32,7 +32,7 @@ Matkul  : Pemrograman Web 1
 
 ## **Result**
 
-![demo](https://github.com/dipca0895/Lab11PHP_OOP_Lanjutan/assets/115719283/90b21d6a-24a2-49e3-af81-bd59120b14bb)
+https://github.com/dipca0895/Lab11PHP_OOP_Lanjutan/assets/115719283/851e9d0f-5915-4b64-a735-e0a61ede3e3d
 
 <hr>
 
