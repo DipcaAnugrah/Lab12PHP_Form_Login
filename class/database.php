@@ -4,8 +4,14 @@ class Database
 {
     protected $conn;
 
-    public function __construct($host, $user, $password, $db_name)
+    public function __construct()
     {
+        $config = include 'config.php';
+        $host = $config['host'];
+        $user = $config['username'];
+        $password = $config['password'];
+        $db_name = $config['db_name'];
+
         $this->conn = new mysqli($host, $user, $password, $db_name);
 
         if ($this->conn->connect_error) {
@@ -27,6 +33,12 @@ class Database
     {
         $this->conn->close();
     }
+
+    public function getConn()
+{
+    return $this->conn;
+}
+
 }
 
 ?>

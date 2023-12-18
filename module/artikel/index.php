@@ -4,7 +4,7 @@ include("../../class/formlibary.php");
 
 $config = include("../../class/config.php");
 
-$db = new Database($config['host'], $config['username'], $config['password'], $config['latihan1']);
+$db = new Database($config['host'], $config['username'], $config['password'], $config['db_name']);
 $sql = 'SELECT * FROM data_barang';
 $result = $db->query($sql);
 

@@ -59,9 +59,9 @@ img {
   font-size: 12px;
 }
 
-.aksi .hapus {
+.hapus {
   text-decoration: none;
-  background-color: red;
+  background-color: red !important;
   margin: 2px;
   color: #fff;
   border-radius: 5px;
@@ -159,4 +159,5 @@ h1 {
 .modular-list, .modular{
   text-align: left;
 }
+
 
