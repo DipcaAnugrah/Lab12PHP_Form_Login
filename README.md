@@ -87,7 +87,7 @@ include_once 'footer.php';
 
 ```
 
-<img src="https://github.com/dipca0895/Lab11PHP_Form_Login/blob/main/gambar/login.png" width=70% height=70%>
+<img src="https://github.com/dipca0895/Lab12PHP_Form_Login/blob/main/gambar/login.png" width=70% height=70%>
 
 ## **Result**
 
